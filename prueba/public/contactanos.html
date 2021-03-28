@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body class="bg-gray-100">
+    <nav class="flex items-center justify-between flex-wrap bg-primary ">
+        <div class="px-2 bg-primary text-white flex justify-between items-center ">
+            <div>
+                <a href="home.html"><img class="h-8 py-1" src="img/logo-w.svg" alt="logo"></a>
+            </div>
+        </div>
+        <div class="block lg:hidden">
+          <button id='boton' class="flex items-center px-3 py-1 text-white text-2xl hover:text-white hover:border-white focus:outline-none">
+            &equiv;
+          </button>
+        </div>
+        <div id='menu' class="w-full block flex-grow lg:flex lg:items-center lg:w-auto hidden lg:justify-between">
+          <div id="componentes" class="text-xl lg:flex-grows">
+            <a href="actividades.html" class="md:ml-20 block mt-4 lg:inline-block lg:mt-0 text-white hover:text-secondary mr-4 md:mr-20">
+              Actividades
+            </a>
+            <a href="#responsive-header" class="md:ml-20 block mt-4 lg:inline-block lg:mt-0 text-white hover:text-secondary md:mr-20 mr-4">
+              Datos
+            </a>
+          </div>
+          <div class="mx-2 my-1 ">
+            <input class="search w-50 lg:w-50" type="search" placeholder="Buscar">
+        </div>
+        </div>
+      </nav>
+      <script src="app.js"></script>
+    <main class="mx-auto md:w-1/2">
+        <h1 class="text-3xl font-bold text-center mt-4">Contactanos</h1>
+        <div class="mx-2">
+            <div class="mt-8">
+                <div>Nombre</div>
+                <input class="form-control" type="text" placeholder="Nombre" id="fname" />
+            </div>
+            <div class="mt-8">
+                <div>Email</div>
+                <input class="form-control" type="text" placeholder="Email" id="fname" />
+            </div>
+            <div class="mt-8">
+                <div>Comentario</div>
+                <textarea class="form-control resize-none" name="" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <a href="mailto:esuncutogodis@gmail.com" class="btn text-center">Enviar</a>
+            </div>
+        </div>
+    </main>
+    <footer class="lg:flex-row-reverse md:items-center lg:flex lg:justify-between w-full text-white bg-primary md:absolute bottom-0">
+        <div class="mt-2 md:mb-2 flex justify-center items-center">
+                <div class="mx-2 hover:text-blue-300 cursor-pointer"><i class="fa fa-facebook"></i> /facebook</div>
+                <div class="mx-2 hover:text-yellow-500 cursor-pointer"><i class="fa fa-instagram"></i> @josed_go</div>
+                <div class="mx-2 hover:text-black cursor-pointer"><i class="fa fa-github"></i> /GitHub</div>
+        </div>
+        <div class="mt-2 pb-2">
+            <ul class="flex justify-center items-center">
+                <li class="mx-2">
+                    Acerca de
+                </li>
+                <li class="mx-2">
+                    Support
+                </li>
+                <li class="mx-2">
+                    <a class="cursor-pointer" href="contactanos.html">Contactanos</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
